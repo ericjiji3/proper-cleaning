@@ -1,0 +1,17 @@
+.btn a{
+    text-decoration: none;
+}
+@media(max-width: 1000px){
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-column.company-name {
+        flex: unset;
+        width: 100%;
+    }
+    .footer-column.company-name h3{
+        margin: 0;
+    }
+}
